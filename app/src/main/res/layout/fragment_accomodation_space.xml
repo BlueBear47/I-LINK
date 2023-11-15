@@ -62,16 +62,13 @@
                 android:textColor="#050505"
                 android:textSize="15sp" />
 
-            <com.google.android.gms.maps.MapView
-                android:id="@+id/mapView2"
+            <ImageView
                 android:layout_width="300dp"
                 android:layout_height="140dp"
-                android:layout_gravity="center"/>
-
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                app:srcCompat="@drawable/mapslocation1"></ImageView>
         </LinearLayout>
-
-
-
     </LinearLayout>
 
     <LinearLayout
