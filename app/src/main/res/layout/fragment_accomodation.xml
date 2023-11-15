@@ -62,12 +62,13 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
 
-                <ImageView
+                <ImageButton
                     android:layout_width="60dp"
                     android:layout_height="100dp"
                     android:layout_weight="1"
                     app:srcCompat="@drawable/location1">
-                </ImageView>
+
+                </ImageButton>
 
                 <ImageView
                     android:layout_width="60dp"
