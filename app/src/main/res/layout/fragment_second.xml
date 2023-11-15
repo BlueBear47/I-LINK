@@ -42,7 +42,8 @@
             android:text="Activities"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
             android:textSize="24sp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:layout_marginTop="8dp"/>
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -92,10 +93,10 @@
 
 
         <TextView
-            android:id="@+id/InternationalText"
+            android:id="@+id/culturalActText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Best international houses : "
+            android:text="Cultural activities : "
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
             android:textSize="20sp"
             android:layout_marginLeft="8dp"
@@ -110,28 +111,28 @@
             android:layout_marginTop="8dp">
 
             <ImageButton
-                android:id="@+id/intlHome1Btn"
+                android:id="@+id/culturalAct1Btn"
                 android:layout_width="150dp"
                 android:layout_height="150dp"
                 android:layout_marginRight="8dp"
-                android:background="@mipmap/ic_intl_home1_foreground"
+                android:background="@mipmap/ic_culture1"
                 android:textColor="@color/black" />
 
             <ImageButton
-                android:id="@+id/intlHome2Btn"
+                android:id="@+id/culturalAct2Btn"
                 android:layout_width="150dp"
                 android:layout_height="150dp"
                 android:layout_marginRight="8dp"
-                android:background="@mipmap/ic_intl_home2_foreground"
+                android:background="@mipmap/ic_culture2"
                 android:textColor="@color/black" />
 
         </LinearLayout>
 
         <TextView
-            android:id="@+id/InternationalText"
+            android:id="@+id/festivalText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Best international houses : "
+            android:text="Best festivals : "
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
             android:textSize="20sp"
             android:layout_marginLeft="8dp"
@@ -146,28 +147,28 @@
             android:layout_marginTop="8dp">
 
             <ImageButton
-                android:id="@+id/intlHome1Btn"
+                android:id="@+id/festival1Btn"
                 android:layout_width="150dp"
                 android:layout_height="150dp"
                 android:layout_marginRight="8dp"
-                android:background="@mipmap/ic_intl_home1_foreground"
+                android:background="@mipmap/ic_festival1_foreground"
                 android:textColor="@color/black" />
 
             <ImageButton
-                android:id="@+id/intlHome2Btn"
+                android:id="@+id/festival2Btn"
                 android:layout_width="150dp"
                 android:layout_height="150dp"
                 android:layout_marginRight="8dp"
-                android:background="@mipmap/ic_intl_home2_foreground"
+                android:background="@mipmap/ic_festival2_foreground"
                 android:textColor="@color/black" />
 
         </LinearLayout>
 
         <TextView
-            android:id="@+id/InternationalText"
+            android:id="@+id/campingText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Best international houses : "
+            android:text="Hiking in the nature : "
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
             android:textSize="20sp"
             android:layout_marginLeft="8dp"
@@ -182,19 +183,19 @@
             android:layout_marginTop="8dp">
 
             <ImageButton
-                android:id="@+id/intlHome1Btn"
+                android:id="@+id/camping1Btn"
                 android:layout_width="150dp"
                 android:layout_height="150dp"
                 android:layout_marginRight="8dp"
-                android:background="@mipmap/ic_intl_home1_foreground"
+                android:background="@mipmap/ic_hike1_foreground"
                 android:textColor="@color/black" />
 
             <ImageButton
-                android:id="@+id/intlHome2Btn"
+                android:id="@+id/camping2Btn"
                 android:layout_width="150dp"
                 android:layout_height="150dp"
                 android:layout_marginRight="8dp"
-                android:background="@mipmap/ic_intl_home2_foreground"
+                android:background="@mipmap/ic_hike2_foreground"
                 android:textColor="@color/black" />
 
         </LinearLayout>
