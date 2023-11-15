@@ -4,24 +4,204 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
+    android:backgroundTint="@color/white"
+    android:foregroundTint="@color/white"
     tools:context=".SecondFragment">
 
-    <TextView
-        android:id="@+id/textview_second"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintBottom_toTopOf="@id/button_second"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
-        android:id="@+id/button_second"
-        android:layout_width="wrap_content"
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar2"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#FFF700"
+        app:popupTheme="@style/Theme.ILINK.PopupOverlay">
+
+        <TextView
+            android:id="@+id/tbTitleText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="I-LINK+"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/previous"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/textview_second" />
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar2">
+
+        <TextView
+            android:id="@+id/titleText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Activities"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/white"
+                android:text="Culture"
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                android:layout_marginRight="8dp"
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/white"
+                android:text="Camping"
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                android:layout_marginRight="8dp"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/white"
+                android:text="Sports"
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                android:layout_marginRight="8dp"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/white"
+                android:text="Festivals"
+                android:textColor="@color/black"
+                android:textSize="12sp" />
+
+
+        </LinearLayout>
+
+
+
+        <TextView
+            android:id="@+id/InternationalText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Best international houses : "
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textSize="20sp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp">
+
+            <ImageButton
+                android:id="@+id/intlHome1Btn"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginRight="8dp"
+                android:background="@mipmap/ic_intl_home1_foreground"
+                android:textColor="@color/black" />
+
+            <ImageButton
+                android:id="@+id/intlHome2Btn"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginRight="8dp"
+                android:background="@mipmap/ic_intl_home2_foreground"
+                android:textColor="@color/black" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/InternationalText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Best international houses : "
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textSize="20sp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp">
+
+            <ImageButton
+                android:id="@+id/intlHome1Btn"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginRight="8dp"
+                android:background="@mipmap/ic_intl_home1_foreground"
+                android:textColor="@color/black" />
+
+            <ImageButton
+                android:id="@+id/intlHome2Btn"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginRight="8dp"
+                android:background="@mipmap/ic_intl_home2_foreground"
+                android:textColor="@color/black" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/InternationalText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Best international houses : "
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textSize="20sp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp">
+
+            <ImageButton
+                android:id="@+id/intlHome1Btn"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginRight="8dp"
+                android:background="@mipmap/ic_intl_home1_foreground"
+                android:textColor="@color/black" />
+
+            <ImageButton
+                android:id="@+id/intlHome2Btn"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginRight="8dp"
+                android:background="@mipmap/ic_intl_home2_foreground"
+                android:textColor="@color/black" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
